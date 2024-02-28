@@ -1,0 +1,32 @@
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: #f53192;
+    box-shadow: 0 10px  20px rgba(225, 26, 26, 0.22) ;
+    cursor: pointer;
+}
+.controls div:nth-child(2){
+    transform:scale(1.5);
+    background: #f53192;
+    color: #fff;
+}
+h2{
+    font-size: 50PX;
+    color: red;
+}
+img{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
